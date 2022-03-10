@@ -20,3 +20,34 @@ img {
 h1 {
     text-align: center;
 }
+
+.contentToggleBtn {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin: 0;
+    padding:  24px 16px;
+    border: none;
+    background-color: #ddd;
+    width: 100%;
+}
+
+.contentToggleBtn:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.collapsibleContent {
+    background-color: #eee;
+    padding: 16px;
+    display: none;
+}
+
+.collapsibleContent p {
+    margin: 0;
+    padding: 0;
+}
+
+.open {
+    display: block;
+}
